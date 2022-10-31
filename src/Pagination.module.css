@@ -1,0 +1,61 @@
+.pagination {
+ width: 1338.3px;
+ display: flex;
+ justify-content: space-around;
+/*  font-family: "graphikMedium"; */
+}
+
+.pagination span {
+ display: flex;
+ width: 50px;
+ height: 50px;
+ border-radius: 4px;
+ margin: 5px;
+ cursor: pointer;
+ align-items: center;
+ justify-content: center;
+ font-weight: bold;
+ color: black;
+}
+
+.pagination span.dots {
+ cursor: default;
+}
+
+.curPageSpan {
+ background-color: #4f709b49;
+}
+
+.pagination button {
+ margin: 5px 40px;
+ margin-bottom: 15px;
+ width: 8vh;
+ height: 6vh;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ background: linear-gradient(to bottom, #3ab5b0 0%, #3d99be 60%, #56317a 100%);
+ border-radius: 10px;
+ /* font-weight: bolder; */
+}
+
+.pagination p {
+ color: white;
+ text-align: center;
+/*  font-family: "graphikMedium"; */
+ font-size: 4vh;
+ /*   font-weight: bolder; */
+}
+
+div.pagination {
+ display: flex;
+ align-items: baseline;
+ justify-content: center;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+/* @font-face {
+/*  font-family: 'graphikMedium';
+ src: url('../../graphik-font/GraphikMedium.otf'); 
+} */
