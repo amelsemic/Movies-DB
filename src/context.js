@@ -13,7 +13,7 @@ const AppProvider = (props) => {
   const [TVshows, setTVshows] = useState([])
   const [moviesNtvShows, setMoviesNtvShows] = useState([])
   const [actors, setActors] = useState([])
-  const [searchInput, setSearchInput] = useState("office");
+  const [searchInput, setSearchInput] = useState("movie");
   const [movieChunks, setMoviehunks] = useState([]);
   const [curPage, setCurPage] = useState(1);
 
