@@ -3,3 +3,21 @@ Here is your key: e71a3551
 npr: https://www.omdbapi.com/?apikey=e71a3551 &s=gone
 
      https://www.omdbapi.com/?apikey=e71a3551 &i=tt2975590
+
+
+rapidAPI novi API (logovan pomocu githuba, postoji i drugi link na profilu ulogovanom pomocu facebooka):
+
+  const options = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Key': '503da7ce58msh0b6306e1477e439p12147fjsncdebe2e8433c',
+      'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
+    }
+  };
+  
+  
+  const fetchMovies = async () =>{
+    const res = await fetch('https://online-movie-database.p.rapidapi.com/title/find?q=office', options);
+    const data = await res.json();
+    console.log(data)
+  }

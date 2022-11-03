@@ -14,7 +14,7 @@ const SearchForm = () => {
 
   return (
     <form className="search-form" onSubmit={formSubmitHandler}>
-      <label htmlFor="search">Search movies</label>
+      <label htmlFor="search">Search movies/TV shows/people:</label>
       <input className="form-input" id="search" type="text" />
     </form>
   );

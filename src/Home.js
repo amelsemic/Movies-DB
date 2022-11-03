@@ -8,7 +8,7 @@ import { AppContext } from "./context";
 
 const Home = () => {
   const ctx = useContext(AppContext);
-  const chunks = ctx.movieChunks;
+  const chunks = ctx.srchResults;
   const [curPage, setCurPage] = useState(1);
   const selectPageHandler = (newPage) => {
     setCurPage(newPage);
@@ -17,11 +17,11 @@ const Home = () => {
     <>
       <SearchForm />
       <Movies currentPage={curPage} />
-      <Pagination
+      {/* <Pagination
         curPage={curPage}
         onSelectPage={selectPageHandler}
         chunksLength={chunks.length}
-      />
+      /> */}
     </>
   );
 };

@@ -12,12 +12,11 @@ const ActorInfo = () => {
       setIsLoading(true);
 
       const options = {
-        method: "GET",
+        method: 'GET',
         headers: {
-          "X-RapidAPI-Key":
-            "ff422cc142mshf590ef307b32fd2p13c2e0jsn352f02c31e1d",
-          "X-RapidAPI-Host": "imdb8.p.rapidapi.com",
-        },
+          'X-RapidAPI-Key': '503da7ce58msh0b6306e1477e439p12147fjsncdebe2e8433c',
+          'X-RapidAPI-Host': 'imdb8.p.rapidapi.com'
+        }
       };
 
       const response = await fetch(
